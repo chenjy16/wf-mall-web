@@ -1,0 +1,52 @@
+{
+  "name": "wf-mall-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build",
+    "server": "node dist/app.js",
+    "pm2": "pm2 start pm2.config.json"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.14.0",
+    "babel-preset-es2017": "^6.14.0",
+    "babel-register": "^6.14.0",
+    "fs-promise": "^0.5.0",
+    "koa": "^2.0.0",
+    "koa-compress": "^2.0.0",
+    "koa-convert": "^1.2.0",
+    "koa-cors": "^0.0.16",
+    "koa-json": "^1.1.1",
+    "koa-logger": "^1.3.0",
+    "koa-router": "^7.0.1",
+    "koa-static": "^2.0.0",
+    "koa-views": "^5.0.2",
+    "ejs": "^2.5.1",
+    "koa-onerror": "^2.0.0",
+    "koa-better-body": "^2.0.1",
+    "koa-favicon": "^2.0.0",
+    "superagent": "^2.2.0",
+    "superagent-promise": "^1.1.0",
+    "cheerio": "^0.20.0",
+    "node-schedule": "^1.1.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.4.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^3.1.0",
+    "gulp-sequence": "^0.4.6",
+    "gulp-uglify": "^3.0.0"
+  },
+  "engines": {
+    "node": ">= 7.8.0",
+    "npm": ">= 4.2.0"
+  }
+}
